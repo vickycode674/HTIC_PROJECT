@@ -39,7 +39,7 @@ g++ -std=c++17 task1_even_odd.cpp -o even_odd
 ./even_odd
 
 ---
-
+---
 ## 𝐓𝐚𝐬𝐤 𝟐: 𝐄𝐧𝐜𝐫𝐲𝐩𝐭𝐞𝐝 𝐆𝐞𝐨𝐠𝐫𝐚𝐩𝐡𝐢𝐜𝐚𝐥 𝐅𝐢𝐥𝐞 𝐒𝐭𝐨𝐫𝐚𝐠𝐞 - 𝐂++ 𝐂𝐨𝐧𝐬𝐨𝐥𝐞 𝐀𝐩𝐩𝐥𝐢𝐜𝐚𝐭𝐢𝐨𝐧
 ## 📌 Overview
 
@@ -52,11 +52,6 @@ This console-based C++ application allows users to securely **store** and **retr
 * 📖 Retrieves and displays readable decrypted content
 * ⚠️ Robust error handling for missing directories or files
 
----
-
-## 🧭 Application Flow
-
-### 📌 On Launch
 
 User is prompted with two options:
 
