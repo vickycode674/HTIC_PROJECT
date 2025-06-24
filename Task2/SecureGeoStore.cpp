@@ -27,7 +27,6 @@ void storeFile() {
     cout << "Enter Description: ";
     getline(cin, description);
 
-    // Folder path
     fs::path dir = "./data/" + country + "/" + state + "/" + district;
     fs::create_directories(dir);  // Create directories if not exist
 
@@ -63,7 +62,7 @@ void retrieveFile() {
         cout << "\n📄 Decrypted Content:\n" << decrypted << "\n\n";
         inFile.close();
     } else {
-        cerr << "❌ File not found.\n";
+        cerr << " File not found.\n";
     }
 }
 
