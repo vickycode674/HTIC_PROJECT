@@ -38,14 +38,12 @@ Two threads alternately print even and odd numbers using `std::thread` and mutex
 g++ -std=c++17 task1_even_odd.cpp -o even_odd
 ./even_odd
 
+---
 
 ## 𝐓𝐚𝐬𝐤 𝟐: 𝐄𝐧𝐜𝐫𝐲𝐩𝐭𝐞𝐝 𝐆𝐞𝐨𝐠𝐫𝐚𝐩𝐡𝐢𝐜𝐚𝐥 𝐅𝐢𝐥𝐞 𝐒𝐭𝐨𝐫𝐚𝐠𝐞 - 𝐂++ 𝐂𝐨𝐧𝐬𝐨𝐥𝐞 𝐀𝐩𝐩𝐥𝐢𝐜𝐚𝐭𝐢𝐨𝐧
 ## 📌 Overview
 
 This console-based C++ application allows users to securely **store** and **retrieve** text files containing geographical and descriptive data using a **hierarchical folder structure** (Country → State → District). All file contents are **encrypted** before being saved to disk and decrypted during retrieval.
-
----
-
 ## 🚀 Features
 
 * 🌍 Geographical folder hierarchy: `./data/<Country>/<State>/<District>/`
